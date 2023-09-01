@@ -1,0 +1,40 @@
+.text-center1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\User\Desktop\react\react-app\public\831613.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  .login-form {
+    background-color: #f1f1f1f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form .fields {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  
+  .login-form .fields label {
+    flex-basis: 100px;
+    margin-right: 10px;
+  }
+  
+  .login-form .fields input {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
